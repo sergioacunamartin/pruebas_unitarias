@@ -1,3 +1,5 @@
+const sum = require('../utils/suma');
+
 describe('calculator', () => {
     test.each`
       firstValue | secondValue | expectedResult    
